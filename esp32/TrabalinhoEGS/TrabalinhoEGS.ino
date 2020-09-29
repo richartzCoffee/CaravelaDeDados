@@ -32,6 +32,7 @@ char authMethod[] = "use-token-auth";
 char token[] = TOKEN;
 char clientId[] = "d:" ORG ":" DEVICE_TYPE ":" DEVICE_ID;
 
+
 WiFiClient wifiClient;
 PubSubClient client(server, 1883, NULL, wifiClient);
 
