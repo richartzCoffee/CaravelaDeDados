@@ -13,11 +13,12 @@ int sensor[QTD];
 
 
 // -------- seu wifi -----------
-const  char * ssid =  "GVT-0FBA" ;
-const  char * password =  "1403000443" ;
+const  char * ssid =  "REDE_WIFI";
+const  char * password =  "SENHA_WIFI";
 
-#define ORG "q2f7zy"
-#define DEVICE_TYPE "ESP32Device"
+
+#define ORG "zyrp8o"
+#define DEVICE_TYPE "ESP32device"
 #define DEVICE_ID "001"
 #define TOKEN "12031203"
 
